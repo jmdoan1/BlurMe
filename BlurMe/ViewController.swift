@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         imageView.isUserInteractionEnabled = true
+        imageView.clipsToBounds = true
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.addBlur(_:)))
         
