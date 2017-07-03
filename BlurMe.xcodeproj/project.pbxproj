@@ -12,6 +12,7 @@
 		C1E4A5EF1F09D9DE00362EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E4A5ED1F09D9DE00362EEE /* Main.storyboard */; };
 		C1E4A5F11F09D9DE00362EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E4A5F01F09D9DE00362EEE /* Assets.xcassets */; };
 		C1E4A5F41F09D9DE00362EEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E4A5F21F09D9DE00362EEE /* LaunchScreen.storyboard */; };
+		C1E4A5FC1F09DBFD00362EEE /* muhFace.png in Resources */ = {isa = PBXBuildFile; fileRef = C1E4A5FB1F09DBFD00362EEE /* muhFace.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C1E4A5F01F09D9DE00362EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1E4A5F31F09D9DE00362EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1E4A5F51F09D9DE00362EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E4A5FB1F09DBFD00362EEE /* muhFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = muhFace.png; path = ../../../Personal/iOS/BlurTest/BlurTest/muhFace.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C1E4A5ED1F09D9DE00362EEE /* Main.storyboard */,
 				C1E4A5F01F09D9DE00362EEE /* Assets.xcassets */,
 				C1E4A5F21F09D9DE00362EEE /* LaunchScreen.storyboard */,
+				C1E4A5FB1F09DBFD00362EEE /* muhFace.png */,
 				C1E4A5F51F09D9DE00362EEE /* Info.plist */,
 			);
 			path = BlurMe;
@@ -125,6 +128,7 @@
 				C1E4A5F41F09D9DE00362EEE /* LaunchScreen.storyboard in Resources */,
 				C1E4A5F11F09D9DE00362EEE /* Assets.xcassets in Resources */,
 				C1E4A5EF1F09D9DE00362EEE /* Main.storyboard in Resources */,
+				C1E4A5FC1F09DBFD00362EEE /* muhFace.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
