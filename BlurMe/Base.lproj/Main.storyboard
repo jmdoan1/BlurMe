@@ -28,13 +28,31 @@
                                     <constraint firstAttribute="width" secondItem="twH-7v-G3E" secondAttribute="height" multiplier="1:1" id="PvS-45-fnb"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wob-2q-Ied">
+                                <rect key="frame" x="16" y="617" width="38" height="30"/>
+                                <state key="normal" title="Undo"/>
+                                <connections>
+                                    <action selector="undoChange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Jq-7i-8YY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Luy-mp-ga4">
+                                <rect key="frame" x="323" y="617" width="36" height="30"/>
+                                <state key="normal" title="Redo"/>
+                                <connections>
+                                    <action selector="redoChange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AFa-uI-qLS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Wob-2q-Ied" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="0Ta-4z-GYT"/>
                             <constraint firstItem="twH-7v-G3E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1f7-sd-blm"/>
                             <constraint firstItem="twH-7v-G3E" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="FKj-UY-BIA"/>
                             <constraint firstItem="twH-7v-G3E" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="YF7-C6-cc4"/>
                             <constraint firstItem="twH-7v-G3E" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="afd-dF-3wK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Luy-mp-ga4" secondAttribute="bottom" constant="20" id="bgc-qH-Rvg"/>
+                            <constraint firstItem="Luy-mp-ga4" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="bwg-5G-doN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Wob-2q-Ied" secondAttribute="bottom" constant="20" id="pnM-Z1-mte"/>
                         </constraints>
                     </view>
                     <connections>
